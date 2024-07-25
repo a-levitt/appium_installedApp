@@ -17,7 +17,7 @@ public class CreateDriverSession {
              //   setPlatformName("Android").
                 setUdid("*****").
                 setAppPackage("io.appium.android.apis").
-                setAppActivity("io.appium.android.apis.accessibility.CustomViewAccessibilityActivity");
+                setAppActivity(".accessibility.CustomViewAccessibilityActivity");
 
         URL url = new URL("http://0.0.0.0:4723");
 
